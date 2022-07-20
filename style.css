@@ -1,0 +1,332 @@
+/* google font family */
+
+@import url('https://fonts.googleapis.com/css2?family=Carter+One&family=Lobster&family=Lobster+Two&family=Poppins:wght@500&family=Yanone+Kaffeesatz&display=swap');
+
+body {
+
+    font-family: 'Carter One', cursive;
+
+}
+
+/* Greatest show */
+.play {
+
+    text-decoration: none;
+
+
+}
+
+.button {
+    height: 40px;
+    padding: 20px, 20px, 20px, 20px;
+    border-radius: 4px;
+    font-weight: 600;
+    background-color: red;
+    margin-left: 20px;
+}
+
+.fa-solid {
+
+    color: black;
+}
+
+.container {
+
+    background-color: lightcyan;
+
+
+
+}
+
+.main-container {
+
+    background-color: black;
+}
+
+.first-section {
+
+    display: flex;
+    position: relative;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+
+
+.text-color {
+
+    color: white;
+    margin-left: 20px;
+    margin-top: 40px;
+}
+
+.span {
+
+    color: orange;
+}
+
+
+/* second section  */
+
+.second-div {
+
+    width: 300px;
+    height: 260px;
+    background-color: black;
+    margin-top: 80px;
+    margin-left: 40px;
+    border-radius: 15px;
+
+
+}
+
+
+.div-title {
+
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 15px;
+
+}
+
+.first {
+
+
+    border: 2px solid black;
+    margin-top: 20px;
+    padding-top: 15px;
+    border-radius: 10px;
+    margin-left: 15px;
+    margin-right: 15px;
+    background-color: aliceblue;
+
+
+}
+
+
+.first-red {
+
+    border: 2px solid black;
+    margin-top: 20px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-radius: 10px;
+    margin-left: 15px;
+    margin-right: 15px;
+    background-color: red;
+
+
+}
+
+
+
+
+.sub-div {
+
+    border: 2px solid red;
+}
+
+a {
+
+    text-decoration: none;
+}
+
+
+
+.button-two {
+
+    padding: 15px 15px 15px 15px;
+
+}
+
+
+
+
+.fa-solid {
+
+    margin: 15px;
+}
+
+
+
+
+
+
+.top-blogs {
+
+    border: 2px solid black;
+    width: 25%;
+    margin-top: 15px;
+    background-color: beige;
+    border-radius: 10px;
+
+
+
+}
+
+
+.pic {
+
+    width: 100%;
+}
+
+
+.second {
+
+    margin-top: 10px;
+
+}
+
+/* .second-section {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}  */
+
+
+
+.second-section {
+    margin-top: 50px;
+    display: flex;
+
+}
+
+/* .left {
+    height: 21em;
+    width: 21em;
+
+    border-radius: 10px;
+    margin-left: 185px;
+} */
+
+
+
+
+
+/* .same {
+    background-color: aliceblue;
+    color: black;
+    border-radius: 10px;
+    font-size: 1.5em;
+    padding: 10px 20px;
+    text-align: center;
+}
+
+.same-1 {
+    background-color: aliceblue;
+    color: black;
+    border-radius: 10px;
+    font-size: 1.5em;
+    padding: 10px 60px;
+    text-align: center;
+} */
+
+
+#blog {
+    background-color: red;
+    color: aliceblue;
+    font-size: 1.5em;
+    padding: 10px 90px;
+    border-radius: 10px;
+
+}
+
+.main {
+    margin-left: 6em;
+
+}
+
+.container {
+
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.player {
+    height: 21em;
+    width: 19.5em;
+    background-color: lightgray;
+
+}
+
+.transfer-button {
+    border: 1px solid black;
+    text-decoration: none;
+    background-color: aliceblue;
+    color: black;
+    border-radius: 8px;
+    font-size: 15px;
+    padding: 5px 10px;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+
+
+
+
+
+
+
+/* .match {
+    height: 19em;
+    width: 19.5em;
+    background-color: whitesmoke;
+
+} */
+
+/* fotter */
+
+
+footer {
+    height: 400px;
+    background-color: black;
+}
+
+footer h1 {
+    color: antiquewhite;
+    text-align: center;
+    padding-top: 70px;
+}
+
+
+
+.navi ul {
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+
+
+}
+
+.navi li {
+    margin-right: 20px;
+    padding-right: 20px;
+    margin-top: 100px;
+
+}
+
+.navi li a {
+    color: white;
+    text-decoration: none;
+
+}
+
+.fotter-second {
+
+    display: flex;
+    margin-left: 60px;
+    color: white;
+
+}
+
+@media screen and (max-width:576px) {
+
+    body {
+        background-color: aqua;
+
+    }
+
+}
